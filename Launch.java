@@ -9,7 +9,7 @@ public class Launch {
         // Get user id from input
         String user_id = Getuserid();
         // Initialise fields
-        String First_name, Second_name, line, text, title;
+        String first_name, second_name, line, text, title;
         int pos;
         // Set the url location
         URL url = new URL("https://www.ecs.soton.ac.uk/people/" + user_id);
@@ -30,12 +30,12 @@ public class Launch {
                 // Instantiate a new scanner object to read title, first name and second name
                 Scanner scanner = new Scanner(line);
                 title = scanner.next();
-                First_name = scanner.next();
-                Second_name = scanner.next();
+                first_name = scanner.next();
+                second_name = scanner.next();
 
                 // Output the result
                 System.out.println("Title: " + title);
-                System.out.println("Name: " + First_name + " " + Second_name);
+                System.out.println("Name: " + first_name + " " + second_name);
             }
     }
 
