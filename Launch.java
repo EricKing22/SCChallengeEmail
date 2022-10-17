@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Launch {
     public static void main(String[] args) throws Exception {
-        //C1.SCChallengeEmail();
+        // C1.SCChallengeEmail();
         // Get user id from input
         String user_id = Getuserid();
         // Initialise fields
